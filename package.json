@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "date": "2017-08-01",
   "author": "Pradeep Mishra <pradeep.mishra@raweng.com>",
-  "private": true,
   "license" : "MIT",
   "dependencies": {
     "wsse": "2.4.0"
