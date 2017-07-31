@@ -1,11 +1,24 @@
 {
   "name": "wssecurity-soap",
-  "description": "WSSecurity module for node-soap",
-  "version": "1.0.0",
+  "description": "WSSecurity module for node-soap for node.js v6 and above",
+  "version": "1.0.1",
   "date": "2017-08-01",
-  "author": "Pradeep Mishra <pradeep.mishra@raweng.com>",
   "license" : "MIT",
   "dependencies": {
     "wsse": "2.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeep-mishra/wssecurity.git"
+  },
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Pradeep Mishra",
+    "email" : "pradeep23oct@gmail.com"
+  },
+  "keywords": [
+    "wssecurity-soap",
+    "wssecurity soap",
+    "wssecurity node v6"
+  ]
 }
