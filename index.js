@@ -85,7 +85,7 @@ WSSecurity.prototype.toXML = function() {
     (this._mustUnderstand ? "soap:mustUnderstand=\"1\" " : "") +
     "xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\">" +
     timeStampXml +
-    "<wsse:UsernameToken wsu:Id=\"UsernameToken-" + created +"\">"+
+    "<wsse:UsernameToken>"+ // @MOD: omitted this stuff: wsu:Id=\"UsernameToken-" + created +"\">"+
     "<wsse:Username>" + this._username + "</wsse:Username>" +
     password +
     (this._hasTokenCreated ? "<wsu:Created>" + created + "</wsu:Created>" : "") +
